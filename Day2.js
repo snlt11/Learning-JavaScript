@@ -1,3 +1,168 @@
+// let str = "123";
+// console.log(str);
+// console.log(typeof str);
+// let num = Number(str);
+// console.log(num);
+// console.log(typeof num);
+
+// let str = "2.323232234";
+// let num = Number(str).toFixed(4);
+// console.log(num);
+// console.log(typeof num );
+
+// Ternary operator
+// num = 21;
+// test = num == 21 ? true : false;
+// console.log(test);
+
+// function doIt(){
+//     // z = 10;
+//     // console.log(z);
+//     return z;
+// }
+// // doIt();
+// console.log(doIt());
+// function test(name,age){
+//     // console.log("Name is " + name + " and age is " + age);
+//     return("Name is " + name + " and age is " + age);
+// }
+// // test("Mg mg",22)
+// let answer = test("Aung Aung",22);
+// console.log(answer);
+
+// Template literals 
+// let person = {
+//     name : "John",
+//     age : 22,
+//     parent : ["U Ba", "Daw Mya"],
+//     brother : "Doe",
+//     sister : "Chel"
+// }
+// let test = `
+//     <h2> ${person.name}</h2>
+//     <ul>
+//         <li>Name : ${person.age}</li>
+//         <li>Father : ${person.parent[0]}</li>
+//         <li>Mother : ${person.parent[1]}</li>
+//         <li>Brother : ${person.brother}</li>
+//         <li>Sister : ${person.sister}</li>
+//     </ul>
+// `;
+// document.querySelector(".para").innerHTML = test;
+
+// let one = {
+//     number : 'one',
+//     numberValue : 'none'
+// }
+// let two = `
+//     <h1>${one.number}</h1>
+//     <h2>${one.numberValue}</h2>
+// `;
+// document.querySelector(".testing").innerHTML = two;
+
+// function test(name = "mg mg",age = 100){
+//     console.log(`name: ${name} and age: ${age}`);
+// }
+// // test();
+// test("aung aung",200);
+
+// let test = function(){
+//     console.log("this  is test");
+// }
+// test();
+// let test = () => {
+//     console.log("this is test"); 
+// }
+// test();
+// let test = () => console.log("this is test");
+// test();
+// ( () => console.log("this is IIFE"))();
+
+//Immediately Invoked Function Expression(IIFE)
+// (function test(){
+//     console.log("this is blah blah");
+// })();
+
+// // Function Inside Object
+// let obj = {
+//     name: "mg mg",
+//     age : 10,
+//     gg : function(){
+//         console.log("this is the function inside the object");
+//     }
+// }
+// obj.gg();
+
+
+// let ary = [9,1,2,3,4,5,6,7,8,9];
+// let str = "this is string";
+// // console.log(ary.length);
+// let test = Array.isArray(str);
+// console.log(test);
+// console.log(ary[3]);
+// ary[3] = 1000;
+// console.log(ary[3]);
+// let int = ary.indexOf(5);
+// console.log(int);
+
+// console.log(ary);
+// ary.push(100);  //add array[number] to the end of the array
+// ary.pop(9); // last number removed from the array
+// console.log(ary);
+// ary.shift(9); // remove first number from array
+// number.spliced(index,count)
+// ary.splice(3, 4); 
+// ary.reverse();
+// ary.unshift(200); //add array[number] at the beginning
+// console.log(ary);
+//Combine Two Arrays
+// let ary = [9,1,2,3,4,5,6,7,8,9];
+// let ary2 = [11,12,13,14,15,16,17,18,19];
+// let combine = ary.concat(ary2);
+// console.table(combine);
+
+// let now = new Date();
+// console.log(now);
+// console.log(now.getDay());
+// console.log(now.getMonth()+1);
+// console.log(now.getDate());
+// console.log(now.getFullYear());
+// console.log(now.getHours());
+// console.log(now.getMinutes());
+// console.log(now.getSeconds());
+// console.log(now.getMilliseconds());
+// console.log(now.getTime());
+
+// let now = new Date();
+// let noww = now.toString;
+// console.log(now);
+// console.log(typeof noww);
+
+// let now = new Date("8/8/2001 05:21");
+// now.setFullYear(2024);
+// now.setMonth(0);
+// console.log(now);
+
+
+// let numbers = [91, 16 , 1 , 2 ,13, 89, 45, 5 , 63, 71, 38];
+// // function filter(x,y){
+// //     return x - y;
+// // }
+// // numbers.sort(filter);
+// // console.log(numbers);
+// let numbers = [91, 16 , 1 , 2 ,13, 89, 45, 5 , 63, 71, 38];
+// numbers.sort((x,y) => x - y);
+// // console.log(numbers);
+// let numbers = [91, 16 , 1 , 12 ,13, 44, 86, 45, 5 , 63, 71, 38];// Array Initialization methods
+// // function under12(num){
+// //     return num < 90;
+// // }
+// // let a = numbers.find(under12);
+// // console.log(a);
+// let result = numbers.find(x => x < 50);
+// console.log(result);
+
+
 // console.log(Math.PI);
 // console.log(Math.E); 
 // let num = 11;
